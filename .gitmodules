@@ -4,7 +4,3 @@
 [submodule "panel"]
 	path = panel
 	url = https://github.com/getkirby/panel.git
-[submodule "dist"]
-	path = dist
-	url = https://github.com/smongey/k_d
-	branch = gh-pages
