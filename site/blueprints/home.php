@@ -2,11 +2,14 @@
 
 title: Home
 pages: false
+files: false
 fields:
   title:
     label: Title
     type:  text
-  text:
-    label: Text
-    type:  textarea
-    size:  large
+  facebook:
+    label: Facebook Link
+    type:  url
+  instagram:
+    label: Instagram Link
+    type:  url
