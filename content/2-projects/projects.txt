@@ -5,6 +5,20 @@ Title: Projects
 Builder: 
 
 - 
+  image1: oliver-jeffers-2.jpg
+  caption1: asdasd
+  image2: oliver-jeffers-2.jpg
+  caption2: asdasd
+  image3: oliver-jeffers-2.jpg
+  caption3: asdsad
+  _fieldset: triple
+- 
   image: oliver-jeffers-2.jpg
   caption: asdasd
-  _fieldset: half
+  _fieldset: single
+- 
+  image1: oliver-jeffers-2.jpg
+  caption1: asdasda
+  image2: oliver-jeffers-2.jpg
+  caption2: asdasdas
+  _fieldset: double

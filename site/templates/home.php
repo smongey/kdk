@@ -2,163 +2,22 @@
 
     <section class="home out">
 
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
-    </div>
-
-
+  
     <?php // snippet('projects') ?>
 
-	<div class="full three">
-		
-		<div class="third view">
-            <picture>
-              <source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-              <source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-              <img data-slide="0" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
-		
-		<div class="third view">
-            <picture>
-              <source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-              <source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-              <img data-slide="1" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
-		
-		<div class="third view">
-            <picture>
-				<source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-				<source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-				<img data-slide="2" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
 
-	</div>
+	<?php 
+	//$img = $page->image($page->aboutpic3());
 
+	// $small = thumb($page->image($page->aboutpic3()), array('width' => 480,'height' => 480, 'crop' => true));
+	// $medium = thumb($page->image($page->aboutpic3()), array('width' => 900,'height' => 900, 'crop' => true)); 
+	?>
 
-	<div class="full two">
-		
-		<div class="half view">
-			<picture>
-				<source media="(max-width: 480px)" srcset="http://placehold.it/130x170 1x, http://placehold.it/260x345 2x">
-				<source media="(max-width: 800px)" srcset="http://placehold.it/330x450 1x, http://placehold.it/660x890 2x">
-				<source media="(max-width: 1200px)" srcset="http://placehold.it/760x1013, http://placehold.it/1500x2000 2x">
-				<img data-slide="3" src="http://placehold.it/760x1013" alt="Some image">
-			</picture>
-		</div>
-		
-		<div class="half view">
-			<picture>
-				<source media="(max-width: 480px)" srcset="http://placehold.it/130x170 1x, http://placehold.it/260x345 2x">
-				<source media="(max-width: 800px)" srcset="http://placehold.it/330x450 1x, http://placehold.it/660x890 2x">
-				<source media="(max-width: 1200px)" srcset="http://placehold.it/760x1013, http://placehold.it/1500x2000 2x">
-				<img data-slide="4" src="http://placehold.it/760x1013" alt="Some image">
-			</picture>
-		</div>
+	<?php foreach($pages->find('projects')->builder()->toStructure() as $section): ?>
 
-	</div>
-
-
-	<div class="full three">
-		
-		<div class="third view">
-            <picture>
-              <source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-              <source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-              <img data-slide="5" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
-		
-		<div class="third view">
-            <picture>
-              <source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-              <source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-              <img data-slide="6" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
-		
-		<div class="third view">
-            <picture>
-				<source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-				<source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-				<img data-slide="7" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
-
-	</div>
-
+		<?php snippet( snippet('sections/' . $section->_fieldset(), array('section' => $section)) ); ?>
 	
-	<div class="full three">
-		
-		<div class="third view">
-            <picture>
-              <source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-              <source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-              <img data-slide="8" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
-		
-		<div class="third view">
-            <picture>
-              <source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-              <source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-              <img data-slide="9" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
-		
-		<div class="third view">
-            <picture>
-				<source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-				<source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-				<img data-slide="10" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
-
-	</div>
-
-
-	<div class="full view">
-
-		<picture>
-			<source media="(max-width: 480px)" srcset="http://placehold.it/280x170 1x, http://placehold.it/700x410 2x">
-			<source media="(max-width: 800px)" srcset="http://placehold.it/700x410 1x, http://placehold.it/1300x750 2x">
-			<source media="(max-width: 1200px)" srcset="http://placehold.it/1300x750, http://placehold.it/2600x1500 2x">
-			<img data-slide="11" src="http://placehold.it/1300x750" alt="Some image">
-		</picture>
-
-	</div>
-
-	
-	<div class="full three">
-		
-		<div class="third view">
-            <picture>
-              <source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-              <source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-              <img data-slide="12" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
-		
-		<div class="third view">
-            <picture>
-              <source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-              <source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-              <img data-slide="13" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
-		
-		<div class="third view">
-            <picture>
-				<source media="(max-width: 480px)" srcset="http://placehold.it/320x430 1x, http://placehold.it/480x640 2x">
-				<source media="(max-width: 1200px)" srcset="http://placehold.it/480x640">
-				<img data-slide="14" src="http://placehold.it/480x640" alt="Some image">
-            </picture>
-		</div>
-
-	</div>
+	<?php endforeach ?>
 
 </section>
 
