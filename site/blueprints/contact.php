@@ -10,9 +10,10 @@ fields:
   builder:
     label: Projects
     type: builder
+    limit: 2
     fieldsets:
-      image:
-        label: Image
+      contactImage:
+        label: Image (1500 x 2000)
         entry: >
           <img src="{{_fileUrl}}{{image}}" height=200px/>  <div style="width:50%; float:right;"><b>Caption:</b><br/>{{caption}}</div>
         fields:
@@ -25,11 +26,14 @@ fields:
             label: Caption
             type: text
             width: 1/2
-      text:
+      contactText:
         label: Text
         entry: >
-         {{text}}
+          <div style="width:50%; float:left;">{{left}}</div>  <div style="width:50%; float:right;">{{right}}</div>
         fields:
-          text:
+          left:
+            label: Text
+            type: textarea
+          right:
             label: Text
             type: textarea

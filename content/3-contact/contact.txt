@@ -2,18 +2,45 @@ Title: Contact
 
 ----
 
-Text:
+Builder: 
 
-## Get in touch
-
-- (link: http://getkirby.com/support text: Kirby's support page)
-- (link: http://forum.getkirby.com text: Kirby's forum)
-- (link: http://github.com/getkirby text: Kirby on Github)
-- <support@getkirby.com>
-
-## Follow us on Twitter
-
-- Follow Kirby on Twitter (twitter: @getkirby)
-- Follow Bastian on Twitter (twitter: @bastianallgeier)
-- Follow Nico on Twitter (twitter: @distantnative)
-- Follow Sascha on Twitter (twitter: @sashtown)
+- 
+  left: |
+    <p>
+    		      STUDIO<br/><br/>
+    
+    		      Waldemar Thranes<br/>
+    		      gate 84 B inngang C<br/>
+    		      0175, Oslo<br/><br/>
+    
+    		      <span></span>Post adress<br/>
+    		      St Halvdars gt 1C<br/>
+    		      0192, Oslo<br/><br/>
+    
+    		      Alessandro D`Orazio<br/>
+    		      +47 452 38 185<br/><br/>
+    
+    		      Jannicke Kråkvik<br/>
+    		      +47 900 72 718<br/><br/>
+    
+    		      post@krakvikdorazio.no
+    		      </p>
+  right: |
+    <p>
+    		      KOLLEKTED BY<br/><br/>
+    
+    		      Rathkes gate 4<br/>
+    		      0558 Oslo<br/><br/>
+    
+    		      +47 400 42 743<br/>
+    		      kollektedby@gmail.com<br/><br/>
+    
+    		      <span></span>Opening hours<br/>
+    		      Thursday: 13.00—18.00<br/>
+    		      Friday: 11.00—18.00<br/>
+    		      Saturday: 11.00—16.00</p>
+  _fieldset: contactText
+- 
+  image: oliver-jeffers-3.jpg
+  caption: text here
+  _fieldset: contactImage

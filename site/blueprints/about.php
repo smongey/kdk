@@ -11,8 +11,8 @@ fields:
     label: Projects
     type: builder
     fieldsets:
-      image:
-        label: Image
+      aboutImage:
+        label: Image (1500 x 2000)
         entry: >
           <img src="{{_fileUrl}}{{image}}" height=200px/>  <div style="width:50%; float:right;"><b>Caption:</b><br/>{{caption}}</div>
         fields:
@@ -25,7 +25,7 @@ fields:
             label: Caption
             type: text
             width: 1/2
-      text:
+      aboutText:
         label: Text
         entry: >
          {{text}}

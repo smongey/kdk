@@ -5,20 +5,14 @@ Title: About
 Builder: 
 
 - 
-  text: >
-    Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit. Ipsam labore
-    voluptates ex sapiente, obcaecati.
-    Alias, veniam iusto eaque, ullam fugit
-    iste nisi quo porro atque quidem
-    voluptatem voluptatibus nulla
-    repudiandae! Nesciunt sapiente
-    accusamus, placeat porro, fugiat
-    aliquid, quis iusto quos quae nisi quo
-    dignissimos recusandae inventore est,
-    similique vel aut!
-  _fieldset: text
+  text: |
+    Jannicke Kråkvik (12.01.1977) and Alessandro D’Orazio (18.05.1965) work as stylists in Oslo, Norway: They specialise in developing ideas and concepts, as well as in set design – taking pride in bullding and creating atmospheres that reflect and enhance each project they are working on. With a large creative studio of 250 square metres, they have a vast selection of props available to them. They build and paint the sets themselves, making sure the environments they create are perfect.
+    
+    In addition to their work as stylists Kråkvik & D`Orazio are available for consultations on interior design projects for both individuals and businesses. They work in 3D and always present their projects accompanied by drawings and inspirational collages. Their expertise will make sure each project feels contemporary and new using the latest materials, colours and lighting, while at the same time making sure the space is filled with a special atmosphere.
+    
+    The couple have worked and lived together since 2003. Whit extensive knowledge of both fashion and design, they love what they do.
+  _fieldset: aboutText
 - 
   image: about.jpg
   caption: something
-  _fieldset: image
+  _fieldset: aboutImage
