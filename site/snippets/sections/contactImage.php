@@ -12,7 +12,7 @@
 		      <source media="(max-width: 480px)" srcset="<?php echo $xs->url() ?> 1x, <?php echo $s->url() ?> 2x">
 		      <source media="(max-width: 800px)" srcset="<?php echo $m->url() ?> 1x, <?php echo $l->url() ?> 2x">
 		      <source media="(max-width: 1200px)" srcset="<?php echo $xl->url() ?>, <?php echo $xxl->url() ?> 2x">
-		      <img src="<?php echo $xl->url() ?>" alt="some text">
+		      <img src="<?php echo $xl->url() ?>" alt="<?php echo $section->caption() ?>">
 		    </picture>
 		    <p class="caption">
 			<?php echo $section->caption() ?>
