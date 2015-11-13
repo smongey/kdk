@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="description" content="<?php echo $site->description()->html() ?>">
@@ -9,8 +9,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <link rel="stylesheet" href="<?php echo url() ?>/dist/styles/vendor.css">
-
-    <link rel="stylesheet" href="<?php echo url() ?>/dist/styles/main.css">
+    <?php snippet('scss') ?>
 
   </head>
   <body>

@@ -32,7 +32,7 @@ kd.$d.on('click', 'a.about', function(e){
 }).on('click', 'a.totop', function(e){
 
 	e.preventDefault();
-	l(e);
+	// $('html').css('overflow-y', 'visible');
 	$('html, body').animate({
 		scrollTop: 0
 	}, 1000, 'easeInOutQuint');
@@ -46,23 +46,23 @@ kd.$d.on('click', 'a.about', function(e){
 	kd.goToSlide(kd.slideIndex);
 
 	$('.slideshow').removeClass('out');
-	$('html').css('overflow-y', 'scroll');
+	// $('html').css('overflow-y', 'hidden');
 	$('body').addClass('noscroll');
 
 }).on('click', '.slideshow', function(e){
 	e.preventDefault();
 	// l(e.target);
-	l('lol');
+	l('slideshow clicked');
 	if(e.target == $('.slideshow')[0]) {
 		$(this).addClass('out');
-		$('html').css('overflow-y', 'hidden');
+		// $('html').css('overflow-y', 'scroll');
 		$('body').removeClass('noscroll');
 		$('.slideshow li').removeClass('active');
-		l('lol 2');
+		l('close slideshow');
 	} else {
 		//l('next slide');
 		kd.goToSlide(kd.slideIndex + 1);
-		l('lol 3');
+		l('next slide');
 	}
 }).on('keydown', function(e) {
 	if(!$('.slideshow').hasClass('out')) {

@@ -4,9 +4,9 @@
     <footer>
 	<div class="full">
 		<ul>
-			<li class="third insta"><a href="#">Follow us on instagram</a></li>
+			<li class="third insta"><a href="<?php echo $pages->find('home')->instagram(); ?>">Follow us on instagram</a></li>
 			<li class="third top"><a class="totop" href="#">To the top</a></li>
-			<li class="third face"><a href="#">Follow us on facebook</a></li>
+			<li class="third face"><a href="<?php echo $pages->find('home')->facebook(); ?>">Follow us on facebook</a></li>
 		</ul>
 	</div>
 	</footer>
