@@ -46,7 +46,6 @@ kd.$d.on('click', 'a.about', function(e){
 	kd.goToSlide(kd.slideIndex);
 
 	$('.slideshow').removeClass('out');
-	// $('html').css('overflow-y', 'hidden');
 	$('body').addClass('noscroll');
 
 }).on('click', '.slideshow', function(e){

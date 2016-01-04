@@ -2,4 +2,12 @@
 /site/accounts
 /assets/avatars
 /thumbs/*
-/content/*
+
+/content/
+/frontend/
+/kirby/
+/panel/
+
+license.md
+readme.md
+_old/
