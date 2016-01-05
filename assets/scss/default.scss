@@ -539,6 +539,10 @@ footer {
       width: calc(100% - 20px);
       margin: 0 0 20px 0;
     }
+    .third:last-child {
+      width: calc(100% - 20px);
+      margin: 0 0 20px 0;
+    }
   }
   section.about, section.contact {
     padding-bottom: 100px;
