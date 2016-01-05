@@ -13,7 +13,7 @@
 <div class="slideshow out">
 	<ul>
 <?php foreach($pages->find('projects')->builder()->toStructure() as $section): ?>
-	<?php if ($section->_fieldset() == "single" ) {?>
+	<?php if ($section->_fieldset() == "single" ) { ?>
 		<li>
 			<picture>
 				<img class="ss" src="assets/images/bg.png" data-src="<?php echo $pages->find('projects')->image($section->image())->url() ?>" alt="<?php echo $section->caption() ?>">
@@ -29,7 +29,7 @@
 		</li>
 		<li>
 			<picture>
-				<img src="assets/images/bg.png" data-src="<?php echo $pages->find('projects')->image($section->image2())->url() ?>" alt="<?php echo $section->caption2() ?>">
+				<img class="ss" src="assets/images/bg.png" data-src="<?php echo $pages->find('projects')->image($section->image2())->url() ?>" alt="<?php echo $section->caption2() ?>">
 		    </picture>
 			<p class="caption"><?php echo $section->caption2() ?></p>
 		</li>

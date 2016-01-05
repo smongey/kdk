@@ -15,12 +15,11 @@ var kd = {
 
 $(function() {
     FastClick.attach(document.body);
-    $("img:not(.ss)").unveil();
 });
 
 kd.$d.on('click', 'a.about', function(e){
 
-	kd.ajaxReq(e, 'about')
+	kd.ajaxReq(e, 'about');
 
 }).on('click', 'a.contact', function(e){
 
@@ -40,7 +39,8 @@ kd.$d.on('click', 'a.about', function(e){
 
 }).on('click', 'section.home img', function(e) {
 	e.preventDefault();
-	$("img").unveil();
+	$("img.ss").unveil();
+
 	kd.slideIndex = $('img').index($(this));
 	l(kd.slideIndex);
 
