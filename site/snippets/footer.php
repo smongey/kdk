@@ -36,7 +36,7 @@
     </script>
 
     <script src="<?php echo url() ?>/dist/scripts/vendor.js"></script>
-
-        <script src="<?php echo url() ?>/dist/scripts/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/unveil/1.3.0/jquery.unveil.min.js"></script>
+    <script src="<?php echo url() ?>/dist/scripts/main.js"></script>
 </body>
 </html>

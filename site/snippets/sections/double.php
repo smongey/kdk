@@ -20,19 +20,19 @@
 		
 		<div class="half view">
 			<picture>
-				<source media="(max-width: 480px)" srcset="<?php echo $xs1->url() ?> 1x, <?php echo $s1->url() ?> 2x">
+				<!-- <source media="(max-width: 480px)" srcset="<?php echo $xs1->url() ?> 1x, <?php echo $s1->url() ?> 2x">
 				<source media="(max-width: 800px)" srcset="<?php echo $m1->url() ?> 1x, <?php echo $l1->url() ?> 2x">
-				<source media="(max-width: 1200px)" srcset="<?php echo $xl1->url() ?>, <?php echo $xxl1->url() ?> 2x">
-				<img data-slide="3" src="<?php echo $xl1->url() ?>" alt="<?php echo $section->caption() ?>">
+				<source media="(max-width: 1200px)" srcset="<?php echo $xl1->url() ?>, <?php echo $xxl1->url() ?> 2x"> -->
+				<img data-slide="3" src="assets/images/bg.png" data-src="<?php echo $xxl1->url() ?>" alt="<?php echo $section->caption() ?>">
 			</picture>
 		</div>
 		
 		<div class="half view">
 			<picture>
-				<source media="(max-width: 480px)" srcset="<?php echo $xs2->url() ?> 1x, <?php echo $s2->url() ?> 2x">
+				<!-- <source media="(max-width: 480px)" srcset="<?php echo $xs2->url() ?> 1x, <?php echo $s2->url() ?> 2x">
 				<source media="(max-width: 800px)" srcset="<?php echo $m2->url() ?> 1x, <?php echo $l2->url() ?> 2x">
-				<source media="(max-width: 1200px)" srcset="<?php echo $xl2->url() ?>, <?php echo $xxl2->url() ?> 2x">
-				<img data-slide="3" src="<?php echo $xl2->url() ?>" alt="<?php echo $section->caption() ?>">
+				<source media="(max-width: 1200px)" srcset="<?php echo $xl2->url() ?>, <?php echo $xxl2->url() ?> 2x"> -->
+				<img data-slide="3" src="assets/images/bg.png" data-src="<?php echo $xxl2->url() ?>" alt="<?php echo $section->caption() ?>">
 			</picture>
 		</div>
 	</div>

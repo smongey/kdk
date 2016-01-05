@@ -16,25 +16,25 @@
 
 		<div class="third view">
             <picture>
-              <source media="(max-width: 480px)" srcset="<?php echo $s1->url() ?> 1x, <?php echo $m1->url() ?> 2x">
-              <source media="(max-width: 1200px)" srcset="<?php echo $m1->url() ?>">
-              <img data-slide="0" src="<?php echo $m1->url() ?>" alt="<?php echo $section->caption1() ?>">
+              <!-- <source media="(max-width: 480px)" srcset="<?php echo $s1->url() ?> 1x, <?php echo $m1->url() ?> 2x">
+              <source media="(max-width: 1200px)" srcset="<?php echo $m1->url() ?>"> -->
+              <img data-slide="0" src="assets/images/bg.png" data-src="<?php echo $m1->url() ?>" alt="<?php echo $section->caption1() ?>">
             </picture>
 		</div>
 		
 		<div class="third view">
             <picture>
-              <source media="(max-width: 480px)" srcset="<?php echo $s2->url() ?> 1x, <?php echo $m2->url() ?> 2x">
-              <source media="(max-width: 1200px)" srcset="<?php echo $m2->url() ?>">
-              <img data-slide="0" src="<?php echo $m2->url() ?>" alt="<?php echo $section->caption2() ?>">
+              <!-- <source media="(max-width: 480px)" srcset="<?php echo $s2->url() ?> 1x, <?php echo $m2->url() ?> 2x">
+              <source media="(max-width: 1200px)" srcset="<?php echo $m2->url() ?>"> -->
+              <img data-slide="0" src="assets/images/bg.png" data-src="<?php echo $m2->url() ?>" alt="<?php echo $section->caption2() ?>">
             </picture>
 		</div>
 		
 		<div class="third view">
             <picture>
-              <source media="(max-width: 480px)" srcset="<?php echo $s3->url() ?> 1x, <?php echo $m3->url() ?> 2x">
-              <source media="(max-width: 1200px)" srcset="<?php echo $m3->url() ?>">
-              <img data-slide="0" src="<?php echo $m3->url() ?>" alt="<?php echo $section->caption3() ?>">
+              <!-- <source media="(max-width: 480px)" srcset="<?php echo $s3->url() ?> 1x, <?php echo $m3->url() ?> 2x">
+              <source media="(max-width: 1200px)" srcset="<?php echo $m3->url() ?>"> -->
+              <img data-slide="0" src="assets/images/bg.png" data-src="<?php echo $m3->url() ?>" alt="<?php echo $section->caption3() ?>">
             </picture>
 		</div>
 
