@@ -433,6 +433,9 @@ section.about, section.contact {
       padding: $vertical / 3;
     }
   }
+  .half.bios p {
+    font: 24px/32px $sans;
+  }
   .half > .half {
     width: 50%;
     min-width: 250px;
