@@ -8,6 +8,8 @@
     <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+    <!-- <script src="./dist/scripts/lazysizes.min.js" async=""></script> -->
+
     <link rel="stylesheet" href="<?php echo url() ?>/dist/styles/vendor.css">
     <?php snippet('scss') ?>
 

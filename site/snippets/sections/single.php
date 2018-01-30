@@ -10,10 +10,10 @@
 		?>
 		
  		<picture>
-			<source media="(max-width: 480px)" srcset="<?php echo $s->url(); ?> 1x, <?php echo $m->url(); ?> 2x">
-			<source media="(max-width: 800px)" srcset="<?php echo $m->url(); ?> 1x, <?php echo $l->url(); ?> 2x">
-			<source media="(max-width: 1200px)" srcset="<?php echo $l->url(); ?>, <?php echo $xl->url(); ?> 2x">
-			<img data-slide="0" src="<?php echo $l->url(); ?>" alt="<?php echo $section->caption(); ?>">
+			<source media="(max-width: 480px)" data-srcset="<?php echo $s->url(); ?> 1x, <?php echo $m->url(); ?> 2x">
+			<source media="(max-width: 800px)" data-srcset="<?php echo $m->url(); ?> 1x, <?php echo $l->url(); ?> 2x">
+			<source media="(max-width: 1200px)" data-srcset="<?php echo $l->url(); ?>, <?php echo $xl->url(); ?> 2x">
+			<img data-slide="0" src="assets/images/loading.gif" class="lazyload" data-src="<?php echo $l->url(); ?>" alt="<?php echo $section->caption(); ?>">
 		</picture>
 		
 	</div>

@@ -171,7 +171,17 @@ section div, footer div { float: left; }
     display: inline-block;
     // max-width: 100%;
     width: 100%;
+    transition: all ease .3s;
   }
+}
+
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms;
 }
 
 
@@ -259,8 +269,10 @@ section {
   position: relative;
   transition: all $cubic 1s;
   z-index: 1111;
+  display: block;
   &.out {
     transform: scale(.98) translateY(-1%);
+    display: none;
     opacity: 0;
     pointer-events: none;
   }
