@@ -11,7 +11,9 @@
     <!-- <script src="./dist/scripts/lazysizes.min.js" async=""></script> -->
 
     <link rel="stylesheet" href="<?php echo url() ?>/dist/styles/vendor.css">
-    <?php snippet('scss') ?>
+    <link rel="stylesheet" href="<?php echo url() ?>/assets/css/default.css">
+    
+    <!-- <?php snippet('scss') ?> -->
 
   </head>
   <body>

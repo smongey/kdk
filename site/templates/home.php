@@ -2,9 +2,9 @@
 
 <section class="home out">
 
-	<?php foreach($pages->find('projects')->builder()->toStructure() as $section): ?>
+	<?php foreach($pages->find('projects')->builder()->toStructure()->flip() as $section): ?>
 
-		<?php snippet( snippet('sections/' . $section->_fieldset(), array('section' => $section)) ); ?>
+		<?php snippet('sections/' . $section->_fieldset(), array('section' => $section)); ?>
 	
 	<?php endforeach ?>
 
@@ -12,7 +12,7 @@
 
 <div class="slideshow out">
 	<ul>
-<?php foreach($pages->find('projects')->builder()->toStructure() as $section): ?>
+<?php foreach($pages->find('projects')->builder()->toStructure()->flip() as $section): ?>
 	<?php if ($section->_fieldset() == "single" ) { ?>
 		<li>
 			<picture>
